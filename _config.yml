@@ -18,46 +18,25 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "Xander Vaes"
-# email: your-email@example.com
+title: Xander Vaes
 description: >- # this means to ignore newlines until "baseurl:"
   Programmer, Scientist, Researcher, Maker
-baseurl: "" # the subpath of your site, e.g. /blog
+
+baseurl: "" # 
 domain: xanderv-2158642.github.io
-url: https://xanderv-2158642.github.io # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: jekyllrb
-#
+url: https://xanderv-2158642.github.io 
+
 github_username: XanderV-2158642
 linkedin_username: xander-vaes-9025721b1
 orcid_id: 0009-0007-1165-4666
 author: "Xander Vaes"
 
-# Build settings
 theme: minima
-plugins:
-  - jekyll-feed
+
+minima:
+  skin: dark
 
 collections:
   projects:
     output: true
     permalink: /projects/:name/
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
