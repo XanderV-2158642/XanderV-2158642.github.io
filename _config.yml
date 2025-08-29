@@ -35,8 +35,20 @@ remote_theme: "jekyll/minima@1e8a445"
 
 minima:
   skin: dark
+  social_links:
+    - title: Github
+      icon: github
+      url: https://github.com/XanderV-2158642
+    - title: LinkedIn
+      icon: linkedin
+      url: https://linkedin.com/in/xander-vaes-9025721b1
+    - title: Orcid ID
+      icon: orcid
+      url: https://orcid.org/0009-0007-1165-4666
+
 
 collections:
+
   projects:
     output: true
     permalink: /projects/:name/
