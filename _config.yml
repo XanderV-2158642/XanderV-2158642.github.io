@@ -31,7 +31,7 @@ linkedin_username: xander-vaes-9025721b1
 orcid_id: 0009-0007-1165-4666
 author: "Xander Vaes"
 
-theme: minima
+remote_theme: "jekyll/minima@1e8a445"
 
 minima:
   skin: dark

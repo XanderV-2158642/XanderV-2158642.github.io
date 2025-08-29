@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: home
 permalink: /
+title: false
 ---
 
 # {{site.title}}
@@ -22,7 +23,7 @@ Supporting Low-Volume PCB-prototyping using a collaborative robot and augmented 
 A LLM support ETF explaining platform
 - **Tech Stack:** Ollama, React
 - **Challenges:** Getting local hosted LLMs to provide reliable information based on public (legally scrapable) info.
-- [View Project Details](/projects/wtf/) • [GitHub](https://github.com/XanderV-2158642/WhatTheFund)
+- [View Project Details](/projects/whatthefund/) • [GitHub](https://github.com/XanderV-2158642/WhatTheFund)
 
 ### **ZupaSlica**
 STL slicer for 3D printing
