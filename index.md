@@ -8,7 +8,7 @@ title: ""
 
 ## About Me
 
-Computer science student that started coding in 2020. Passionate about Computational fabrication and CyberSecurity. Currently focused on LLM's and machining. 
+Computer science student that started coding in 2020. Passionate about Computational fabrication and CyberSecurity. Currently focused on LLMs and small electronics. 
 
 ---
 

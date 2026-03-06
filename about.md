@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-A little information about me:
+I’m a master’s student in Computer Science at UHasselt, with a strong interest in Human-Computer Interaction, especially in computational fabrication. I also enjoy exploring topics like networking, parallel processing, and distributed systems.
 
-I am a master student computer science at UHasselt. My main interests are in the field of Human Computer interaction, mainly computational fabrication. Next to that I also do a lot of stuff around networking and am very interested in parallel processing and distibuted systems.
-
-Next to programming I like to make stuff, and 3D print a lot. I also play guitar, and make my own guitar pedals. 
+Outside of programming, I love making things and spend a lot of time 3D printing. I also play guitar and even build my own guitar pedals.
