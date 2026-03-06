@@ -10,7 +10,6 @@ title: ""
 
 Computer science student that started coding in 2020. Passionate about Computational fabrication and CyberSecurity. Currently focused on LLMs and small electronics. 
 
----
 
 ## Featured Projects
 
@@ -33,7 +32,6 @@ STL slicer for 3D printing
 
 [View All Projects →](/projects/)
 
----
 
 ## Experience
 
@@ -55,7 +53,6 @@ STL slicer for 3D printing
 - Full stack development using Ruby on Rails and React 
 - Cloud deployment using Google Cloud
 
----
 
 ## Education
 

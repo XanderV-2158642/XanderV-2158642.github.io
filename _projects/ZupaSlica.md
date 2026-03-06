@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "ZupaSlica"
-description: "An stl slicer, that produces G-code meant for ender3 style printers"
+description: "An stl slicer, that produces G-code for ender3 style printers"
 technologies: ["CPP", "Clipper", "ImGUI"]
 featured: true
 date: 2025-01-06

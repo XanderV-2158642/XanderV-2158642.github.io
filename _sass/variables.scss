@@ -1,0 +1,25 @@
+// Font
+@font-face {
+  font-family: 'Jersey20';
+  src: url('/assets/fonts/Jersey_20/Jersey20-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  size-adjust: 140%;
+}
+
+$font-family: 'Jersey20';
+
+// Colors
+$bg-gradient: linear-gradient(to bottom right, #1c1c1c 40%, #2e1010 100%);
+$bg-color: #1c1c1c;
+$navbar-bg: #1a1a1a;
+$text-color: #f0f0f0;
+$text-muted: #999;
+$accent: #c0392b;
+$navbar-text: #f0f0f0;
+
+// Layout
+$max-width: 860px;
+$navbar-height: 60px;
+

@@ -1,8 +1,8 @@
 ---
 layout: page
 title: "WhatTheFund"
-description: "A webapp that attempts to lower the entry into investing in ETF's using LLMS to explain concepts and investment opportunities"
-technologies: ["LLM's", "python", "Ollama", "React"]
+description: "A webapp that attempts to lower the entry into investing in ETFs using LLMS to explain concepts and investment opportunities"
+technologies: ["LLMs", "python", "Ollama", "React"]
 featured: true
 date: 2025-06-08
 ---

@@ -1,0 +1,14 @@
+<nav>
+  <div class="nav-home">
+    <a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a>
+  </div>
+  <div class="nav-links">
+    {% for nav_item in site.pages %}
+      {% if nav_item.title %}
+        <a href="{{ nav_item.url }}" {% if page.url == nav_item.url %}class="active"{% endif %}>
+          {{ nav_item.title }}
+        </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+</nav>

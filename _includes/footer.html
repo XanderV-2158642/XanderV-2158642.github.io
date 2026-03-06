@@ -1,0 +1,13 @@
+<footer>
+  <div class="footer-inner">
+    <div class="footer-links">
+      {% for link in site.social_links %}
+        <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ link.title }}">
+          <i class="fa-brands fa-{{ link.icon }}"></i>
+          {{ link.title }}
+        </a>
+      {% endfor %}
+    </div>
+    <p class="footer-copy">&copy; {{ site.time | date: "%Y" }} {{ site.author }}</p>
+  </div>
+</footer>
