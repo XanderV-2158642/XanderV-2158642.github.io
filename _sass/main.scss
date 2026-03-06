@@ -62,3 +62,11 @@ pre {
   code { background: none; padding: 0; }
 }
 
+main {
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+

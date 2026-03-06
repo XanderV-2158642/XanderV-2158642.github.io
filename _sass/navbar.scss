@@ -24,14 +24,18 @@ nav {
   }
 
   a {
-    color: $navbar-text;
+    color: $accent;           // red, same as page links
     text-decoration: none;
     font-size: 0.95rem;
     font-weight: 500;
     transition: color 0.2s ease;
 
-    &:hover, &.active {
+    &:hover {
       color: lighten($accent, 20%);
+    }
+
+    &.active {
+      color: $navbar-text;    // white when selected (#f0f0f0)
     }
   }
 }
