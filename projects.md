@@ -6,16 +6,22 @@ permalink: /projects/
 
 Here are some of the projects I've been working on:
 
+<div class="projects-grid">
 {% assign sorted_projects = site.projects | sort: 'date' | reverse %}
 {% for project in sorted_projects %}
 
-## [{{ project.title }}]({{ project.url | relative_url }})
+  <a href="{{ project.url | relative_url }}" class="project-card">
+    {% if project.image %}
+    <div class="project-image">
+      <img src="{{ project.image }}" alt="{{ project.title }}">
+    </div>
+    {% endif %}
+    <div class="project-info">
+      <h3>{{ project.title }}</h3>
+      <p>{{ project.description }}</p>
+      <span class="project-tech">{{ project.technologies | join: ", " }}</span>
+    </div>
+  </a>
 
-{{ project.description }}
-
-**Technologies:** {{ project.technologies | join: ", " }}
-
-{% if project.github %}[GitHub]({{ project.github }}){% endif %}{% if project.demo %} • [Demo]({{ project.demo }}){% endif %} • [Read More]({{ project.url | relative_url }})
-
----
 {% endfor %}
+</div>

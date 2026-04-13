@@ -11,63 +11,103 @@ title: ""
 Computer science student that started coding in 2020. Passionate about Computational fabrication and CyberSecurity. Currently focused on LLMs and small electronics. 
 
 
+## Publications
+
+{% assign sorted_publications = site.publications | sort: 'date' | reverse %}
+{% for pub in sorted_publications %}
+<div class="pub-item">
+  <h3><a href="{{ pub.url | relative_url }}">{{ pub.title }}</a>{% if pub.award %} <span class="award-badge">{{ pub.award }}</span>{% endif %}</h3>
+  <p class="pub-meta">{{ pub.conference }} • {{ pub.date | date: "%Y" }}</p>
+  <p>{{ pub.description }}</p>
+  <p class="pub-links">{% if pub.image %}<a href="{{ pub.image }}">Paper PDF</a> • {% endif %}<a href="https://dl.acm.org/doi/10.1145/3772318.3791414">ACM</a></p>
+</div>
+{% endfor %}
+
+
 ## Featured Projects
 
-### **SOLDAR**
-Supporting Low-Volume PCB-prototyping using a collaborative robot and augmented reality.
-- **Highlights:** First submission for a conference, and my first conference visit.
-- [View Project Details](/projects/soldar/) • [ACM abstract](https://dl.acm.org/doi/abs/10.1145/3641825.3689496) • [Poster](/assets/pdfs/PosterVRST.pdf) (special thanks to [Dries Cardinaels](https://driescardinaels.be))
-
-### **What the Fund**
-A LLM support ETF explaining platform
-- **Tech Stack:** Ollama, React
-- **Challenges:** Getting local hosted LLMs to provide reliable information based on public (legally scrapable) info.
-- [View Project Details](/projects/whatthefund/) • [GitHub](https://github.com/XanderV-2158642/WhatTheFund)
-
-### **MotoValue**
-Second-hand motorcycle valuation platform
-- **Features:** Fair value predictions based on age, kilometers, insurance, warranty
-- **Model:** Regression trained on bidding data from sold advertisements
-- [View Project Details](/projects/motovalue/) • [Live App](https://moto-value.vercel.app)
-
-### **ZupaSlica**
-STL slicer for 3D printing
-- **Tech Stack:** C++, OpenGL, ImGUI
-- **Features:** Standard slicing possibilities of manifold models.
-- [View Project Details](/projects/zupaslica/) • [GitHub](https://github.com/XanderV-2158642/ZupaSlica)
+<div class="projects-grid">
+{% assign sorted_projects = site.projects | sort: 'date' | reverse %}
+{% for project in sorted_projects %}
+  <a href="{{ project.url | relative_url }}" class="project-card">
+    {% if project.image %}
+    <div class="project-image">
+      <img src="{{ project.image }}" alt="{{ project.title }}">
+    </div>
+    {% endif %}
+    <div class="project-info">
+      <h3>{{ project.title }}</h3>
+      <p>{{ project.description }}</p>
+      <span class="project-tech">{{ project.technologies | join: ", " }}</span>
+    </div>
+  </a>
+{% endfor %}
+</div>
 
 [View All Projects →](/projects/)
 
 
 ## Experience
 
-### **Summer internship**
-**Digital Future Lab** (previously EDM)| *Intern* | *14/07/2025 - 12/09/2025*
-- Creating visuals/dashboard UI's to enhance the training process of students learning Craft skills 
-- Use of LLM's, Unity game engine, and python for machine learning
+<div class="experience-list">
 
-### **Summer internship**
-**Expertisecentrum digitale media (EDM)** | *Intern* | *01/07/2024 - 14/08/2024*
-- Creating AR interfaces to show student executions of a craft skill in 3d and their performance
-- Working with the MagicLeap2, and virtual reality paradigms.
-- Machine learning in python
-- My work was featured at the release of the new Digital Future Lab, and was also covered on [local news](https://www.tvl.be/nieuws/80-onderzoekers-werken-aan-digitale-toekomst-in-digital-future-lab-van-uhasselt-174428) [0:00 - 0:43]
+<div class="experience-item">
+  <div class="exp-header">
+    <h3>Summer internship</h3>
+    <span class="exp-date">14/07/2025 - 12/09/2025</span>
+  </div>
+  <p class="exp-company">Digital Future Lab (previously EDM) | Intern</p>
+  <ul class="exp-tasks">
+    <li>Creating visuals/dashboard UI's to enhance the training process of students learning Craft skills</li>
+    <li>Use of LLM's, Unity game engine, and python for machine learning</li>
+  </ul>
+</div>
 
-### **Full stack development**
-**Bogie lab** | *Student programmer* | *01/07/2023 - 31/12/2024*
-- Development of a management system used at BogieLab, to reduce the breeding of testing animals
-- Full stack development using Ruby on Rails and React 
-- Cloud deployment using Google Cloud
+<div class="experience-item">
+  <div class="exp-header">
+    <h3>Summer internship</h3>
+    <span class="exp-date">01/07/2024 - 14/08/2024</span>
+  </div>
+  <p class="exp-company">Expertisecentrum digitale media (EDM) | Intern</p>
+  <ul class="exp-tasks">
+    <li>Creating AR interfaces to show student executions of a craft skill in 3d and their performance</li>
+    <li>Working with the MagicLeap2, and virtual reality paradigms</li>
+    <li>Machine learning in python</li>
+    <li>My work was featured at the release of the new Digital Future Lab, and was also covered on <a href="https://www.tvl.be/nieuws/80-onderzoekers-werken-aan-digitale-toekomst-in-digital-future-lab-van-uhasselt-174428" target="_blank">local news</a></li>
+  </ul>
+</div>
+
+<div class="experience-item">
+  <div class="exp-header">
+    <h3>Full stack development</h3>
+    <span class="exp-date">01/07/2023 - 31/12/2024</span>
+  </div>
+  <p class="exp-company">Bogie lab | Student programmer</p>
+  <ul class="exp-tasks">
+    <li>Development of a management system used at BogieLab, to reduce the breeding of testing animals</li>
+    <li>Full stack development using Ruby on Rails and React</li>
+    <li>Cloud deployment using Google Cloud</li>
+  </ul>
+</div>
+
+</div>
 
 
 ## Education
 
-### Master of Science in Computer Science
-**Hasselt University** | *Expected Graduation: June 2026*
-- **Relevant Coursework:** Human Computer interaction, Networking and security, AI and machine learning.
-- **Weighted average:** 80% 
+<div class="education-list">
 
-### Bachelor of Computer Science
-**Hasselt University** | *Graduation: September 2024*
-- **Achievements:** Cum Laude
+<div class="education-item">
+  <h3>Master of Science in Computer Science</h3>
+  <p class="edu-school">Hasselt University | Expected Graduation: June 2026</p>
+  <p class="edu-details"><strong>Relevant Coursework:</strong> Human Computer interaction, Networking and security, AI and machine learning</p>
+  <p class="edu-details"><strong>Weighted average:</strong> 80%</p>
+</div>
 
+<div class="education-item">
+  <h3>Bachelor of Computer Science</h3>
+  <p class="edu-school">Hasselt University | Graduation: September 2024</p>
+  <p class="edu-details"><strong>Achievements:</strong> Cum Laude</p>
+</div>
+
+</div>

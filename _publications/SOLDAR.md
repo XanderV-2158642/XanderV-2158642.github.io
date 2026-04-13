@@ -1,10 +1,13 @@
 ---
 layout: page
 title: "SOLDAR"
-description: "Supporting low volume pcb prototyping using collaborative robots"
-technologies: ["CPP", "Unity", "Augmented reality development", "6DOF robot programming"]
+description: "Supporting low volume PCB prototyping using collaborative robots"
+technologies: ["CPP", "Unity", "Augmented reality", "6DOF robot programming"]
 featured: true
 date: 2024-10-08
+type: conference
+conference: "ACM VRST 2024"
+image: /assets/pdfs/PosterVRST.pdf
 ---
 
 ## What is SOLDAR

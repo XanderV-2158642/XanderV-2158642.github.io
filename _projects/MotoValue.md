@@ -5,6 +5,7 @@ description: "Second-hand motorcycle valuation platform"
 technologies: ["Vercel", "Regression model"]
 featured: true
 date: 2025-01-01
+image: /assets/pictures/MotoValue/Overview.png
 ---
 
 # MotoValue

@@ -5,6 +5,7 @@ description: "A webapp that attempts to lower the entry into investing in ETFs u
 technologies: ["LLMs", "python", "Ollama", "React"]
 featured: true
 date: 2025-06-08
+image: /assets/pictures/WhatTheFund/wtf_landing_chopped.png
 ---
 
 ## What The Fuck is WhatTheFund

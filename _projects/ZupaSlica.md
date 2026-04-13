@@ -5,6 +5,7 @@ description: "An stl slicer, that produces G-code for ender3 style printers"
 technologies: ["CPP", "Clipper", "ImGUI"]
 featured: true
 date: 2025-01-06
+image: /assets/pictures/ZupaSlica/zupaslica_chopped.png
 ---
 
 ## Why

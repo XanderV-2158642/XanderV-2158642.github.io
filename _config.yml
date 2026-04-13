@@ -50,5 +50,9 @@ collections:
     output: true
     permalink: /projects/:name/
 
+  publications:
+    output: true
+    permalink: /publications/:name/
+
 exclude:
   - docs/

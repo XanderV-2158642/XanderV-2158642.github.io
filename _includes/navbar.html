@@ -4,7 +4,7 @@
   </div>
   <div class="nav-links">
     {% for nav_item in site.pages %}
-      {% if nav_item.title %}
+      {% if nav_item.title and nav_item.url != "/" %}
         <a href="{{ nav_item.url }}" {% if page.url == nav_item.url %}class="active"{% endif %}>
           {{ nav_item.title }}
         </a>
