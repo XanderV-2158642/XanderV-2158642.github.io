@@ -8,6 +8,7 @@ date: 2026-04-01
 type: conference
 conference: "ACM CHI 2026"
 award: "Best Paper Award"
+author_role: "Co-author"
 ---
 
 <span class="award-badge">{{ page.award }}</span>

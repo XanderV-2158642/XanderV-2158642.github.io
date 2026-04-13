@@ -17,7 +17,7 @@ Computer science student that started coding in 2020. Passionate about Computati
 {% for pub in sorted_publications %}
 <div class="pub-item">
   <h3><a href="{{ pub.url | relative_url }}">{{ pub.title }}</a>{% if pub.award %} <span class="award-badge">{{ pub.award }}</span>{% endif %}</h3>
-  <p class="pub-meta">{{ pub.conference }} • {{ pub.date | date: "%Y" }}</p>
+  <p class="pub-meta">{{ pub.conference }} • {{ pub.date | date: "%Y" }}{% if pub.author_role %} • <span class="author-role">{{ pub.author_role }}</span>{% endif %}</p>
   <p>{{ pub.description }}</p>
   <p class="pub-links">{% if pub.image %}<a href="{{ pub.image }}">Paper PDF</a> • {% endif %}<a href="https://dl.acm.org/doi/10.1145/3772318.3791414">ACM</a></p>
 </div>

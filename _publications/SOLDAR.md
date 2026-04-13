@@ -7,6 +7,7 @@ featured: true
 date: 2024-10-08
 type: conference
 conference: "ACM VRST 2024"
+author_role: "First author"
 image: /assets/pdfs/PosterVRST.pdf
 ---
 
