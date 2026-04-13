@@ -24,6 +24,12 @@ A LLM support ETF explaining platform
 - **Challenges:** Getting local hosted LLMs to provide reliable information based on public (legally scrapable) info.
 - [View Project Details](/projects/whatthefund/) • [GitHub](https://github.com/XanderV-2158642/WhatTheFund)
 
+### **MotoValue**
+Second-hand motorcycle valuation platform
+- **Features:** Fair value predictions based on age, kilometers, insurance, warranty
+- **Model:** Regression trained on bidding data from sold advertisements
+- [View Project Details](/projects/motovalue/) • [Live App](https://moto-value.vercel.app)
+
 ### **ZupaSlica**
 STL slicer for 3D printing
 - **Tech Stack:** C++, OpenGL, ImGUI
